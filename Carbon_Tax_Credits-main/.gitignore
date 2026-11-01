@@ -1,0 +1,30 @@
+# Environment & Credentials
+.env
+.env.local
+*.pem
+
+# Python Virtual Environments & Caches
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Node & Frontend Dependencies / Builds
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.output/
+.nitro/
+.cache/
+
+# IDE & OS Artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Output Logs
+*.log

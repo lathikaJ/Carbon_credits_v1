@@ -1,0 +1,13 @@
+dataset,source_file,grain,data_status,derivation_rule,confidence_level
+Industry_Master,MTBF.ods; OEE.ods; POWER_CONSUMPTION.xlsx (sheet titles/part-family inference),1 row (plant),ASSUMED,Plant/industry context; several fields explicitly UNKNOWN pending confirmation,LOW
+Line_Master,MTBF.ods (sheet AA); OEE.ods (daily sheets),1 row per line,OBSERVED,Canonical line_code standardized from two raw spellings across both source files,HIGH
+Machine_Master,MTBF.ods (sheet AA),1 row per machine,OBSERVED,Canonical machine_id standardized from source M/C ID; unavailable asset attributes left NULL,HIGH
+Production,OEE.ods (21 daily sheets),1 row per line per day,OBSERVED,"Direct extraction from OEE daily sheets; anomalous >100% values preserved, not clipped",HIGH
+Machine_Health,MTBF.ods (sheet AA),1 row per machine per month,DERIVED,MTBF/MTTR computed deterministically from observed downtime/breakdown-count/running-time fields,MEDIUM
+Energy_Observed,POWER_CONSUMPTION.xlsx,1 row per power category (plant snapshot),OBSERVED,"Raw plant-level snapshot values, unit not independently confirmed",HIGH
+Energy_Estimated_Proxy,POWER_CONSUMPTION.xlsx (allocated) + OEE.ods (allocation basis),1 row per line per day,ESTIMATED_PROXY,Plant snapshot allocated to line/day using a weighted runtime/output/OEE proxy formula,LOW
+Carbon_Emission,Energy_Estimated_Proxy.csv + CEA grid emission factor (external reference),1 row per line per day,ESTIMATED_PROXY,estimated_co2_kg = allocated_energy_kwh * grid emission factor,LOW
+Carbon_Credit_Assessment,Carbon_Emission.csv (internal baseline comparison),1 row per line per month,ESTIMATED_PROXY,"Illustrative screening only, against an internal (unverified) baseline -- NOT a registry calculation",VERY_LOW
+Tax_Incentive_Screening,Production.csv + Carbon_Emission.csv (KPI thresholds only),1 row per line,ESTIMATED_PROXY,Rule-based operational screen; no scheme names/rates are sourced or fabricated,LOW
+Recommendations,Machine_Health.csv + Production.csv,1 row per finding,DERIVED,"Deterministic threshold rules (RULE_BASED, not AI-generated) over measured/derived KPIs",MEDIUM
+Dashboard_KPI,Production.csv + Machine_Health.csv + Energy_Estimated_Proxy.csv + Carbon_Emission.csv + Recommendations.csv,1 row per line + 1 plant total,DERIVED,Roll-up aggregation; sustainability columns are prefixed 'estimated_' throughout,MEDIUM

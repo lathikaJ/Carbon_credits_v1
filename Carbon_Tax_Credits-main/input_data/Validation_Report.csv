@@ -1,0 +1,103 @@
+dataset,check_type,detail,status,affected_rows
+Industry_Master,Primary Key - Not Null,key=['industry_id'],PASS,0
+Industry_Master,Primary Key - Uniqueness,key=['industry_id'],PASS,0
+Line_Master,Primary Key - Not Null,key=['line_code'],PASS,0
+Line_Master,Primary Key - Uniqueness,key=['line_code'],PASS,0
+Machine_Master,Primary Key - Not Null,key=['machine_id'],PASS,0
+Machine_Master,Primary Key - Uniqueness,key=['machine_id'],PASS,0
+Production,Primary Key - Not Null,"key=['line_code', 'date']",PASS,0
+Production,Primary Key - Uniqueness,"key=['line_code', 'date']",PASS,0
+Machine_Health,Primary Key - Not Null,"key=['machine_id', 'period_month']",PASS,0
+Machine_Health,Primary Key - Uniqueness,"key=['machine_id', 'period_month']",PASS,0
+Energy_Observed,Primary Key - Not Null,key=['source_row'],PASS,0
+Energy_Observed,Primary Key - Uniqueness,key=['source_row'],PASS,0
+Energy_Estimated_Proxy,Primary Key - Not Null,"key=['line_code', 'date']",PASS,0
+Energy_Estimated_Proxy,Primary Key - Uniqueness,"key=['line_code', 'date']",PASS,0
+Carbon_Emission,Primary Key - Not Null,"key=['line_code', 'date']",PASS,0
+Carbon_Emission,Primary Key - Uniqueness,"key=['line_code', 'date']",PASS,0
+Carbon_Credit_Assessment,Primary Key - Not Null,key=['assessment_id'],PASS,0
+Carbon_Credit_Assessment,Primary Key - Uniqueness,key=['assessment_id'],PASS,0
+Tax_Incentive_Screening,Primary Key - Not Null,key=['line_code'],PASS,0
+Tax_Incentive_Screening,Primary Key - Uniqueness,key=['line_code'],PASS,0
+Dashboard_KPI,Primary Key - Not Null,key=['line_code'],PASS,0
+Dashboard_KPI,Primary Key - Uniqueness,key=['line_code'],PASS,0
+Recommendations,Primary Key - Not Null,key=['recommendation_id'],PASS,0
+Recommendations,Primary Key - Uniqueness,key=['recommendation_id'],PASS,0
+Industry_Master,Full-Row Duplicates,duplicated() across all columns,PASS,0
+Line_Master,Full-Row Duplicates,duplicated() across all columns,PASS,0
+Machine_Master,Full-Row Duplicates,duplicated() across all columns,PASS,0
+Production,Full-Row Duplicates,duplicated() across all columns,PASS,0
+Machine_Health,Full-Row Duplicates,duplicated() across all columns,PASS,0
+Energy_Observed,Full-Row Duplicates,duplicated() across all columns,PASS,0
+Energy_Estimated_Proxy,Full-Row Duplicates,duplicated() across all columns,PASS,0
+Carbon_Emission,Full-Row Duplicates,duplicated() across all columns,PASS,0
+Carbon_Credit_Assessment,Full-Row Duplicates,duplicated() across all columns,PASS,0
+Tax_Incentive_Screening,Full-Row Duplicates,duplicated() across all columns,PASS,0
+Recommendations,Full-Row Duplicates,duplicated() across all columns,PASS,0
+Dashboard_KPI,Full-Row Duplicates,duplicated() across all columns,PASS,0
+Data_Lineage,Full-Row Duplicates,duplicated() across all columns,PASS,0
+Data_Dictionary,Full-Row Duplicates,duplicated() across all columns,PASS,0
+Machine_Master,Referential Integrity,line_code -> Line_Master.line_code,PASS,0
+Production,Referential Integrity,line_code -> Line_Master.line_code,PASS,0
+Machine_Health,Referential Integrity,machine_id -> Machine_Master.machine_id,PASS,0
+Machine_Health,Referential Integrity,line_code -> Line_Master.line_code,PASS,0
+Energy_Estimated_Proxy,Referential Integrity,line_code -> Line_Master.line_code,PASS,0
+Carbon_Emission,Referential Integrity,line_code -> Line_Master.line_code,PASS,0
+Carbon_Credit_Assessment,Referential Integrity,line_code -> Line_Master.line_code,PASS,0
+Tax_Incentive_Screening,Referential Integrity,line_code -> Line_Master.line_code,PASS,0
+Dashboard_KPI,Referential Integrity,line_code -> Line_Master(+PLANT_TOTAL).line_code,PASS,0
+Recommendations,Referential Integrity,line_code -> Line_Master.line_code,PASS,0
+Production,Missing Values,column=line_code (0.0% missing),PASS,0
+Production,Missing Values,column=date (0.0% missing),PASS,0
+Production,Missing Values,column=actual_qty (0.0% missing),PASS,0
+Production,Missing Values,column=oee_pct_raw (0.0% missing),PASS,0
+Machine_Health,Missing Values,column=machine_id (0.0% missing),PASS,0
+Machine_Health,Missing Values,column=line_code (0.0% missing),PASS,0
+Machine_Health,Missing Values,column=mtbf_hrs (0.0% missing),PASS,0
+Machine_Health,Missing Values,column=mttr_hrs (0.0% missing),PASS,0
+Energy_Estimated_Proxy,Missing Values,column=line_code (0.0% missing),PASS,0
+Energy_Estimated_Proxy,Missing Values,column=date (0.0% missing),PASS,0
+Energy_Estimated_Proxy,Missing Values,column=allocated_energy_kwh (0.0% missing),PASS,0
+Carbon_Emission,Missing Values,column=line_code (0.0% missing),PASS,0
+Carbon_Emission,Missing Values,column=date (0.0% missing),PASS,0
+Carbon_Emission,Missing Values,column=estimated_co2_kg (0.0% missing),PASS,0
+Production,Value Range,"quality_pct_clean within [0, 100]",PASS,0
+Production,Value Range,"availability_pct_clean within [0, 100]",PASS,0
+Production,Value Range,"performance_pct_clean within [0, 100]",PASS,0
+Production,Value Range,"oee_pct_clean within [0, 100]",PASS,0
+Production,Value Range,"reject_pct_clean within [0, 100]",PASS,0
+Machine_Health,Value Range,"target_uptime_pct_clean within [0, 100]",PASS,0
+Production,Source Lineage Present,"columns=['source_file', 'source_sheet', 'source_row']",PASS,0
+Machine_Health,Source Lineage Present,"columns=['source_file', 'source_sheet', 'source_row']",PASS,0
+Energy_Observed,Source Lineage Present,"columns=['source_file', 'source_sheet', 'source_row']",PASS,0
+Production,Raw vs Derived Distinction,"data_status uses only controlled vocabulary ['ASSUMED', 'DERIVED', 'ESTIMATED_PROXY', 'EXTERNAL_REFERENCE', 'NOT_AVAILABLE', 'OBSERVED']",PASS,0
+Machine_Health,Raw vs Derived Distinction,"data_status uses only controlled vocabulary ['ASSUMED', 'DERIVED', 'ESTIMATED_PROXY', 'EXTERNAL_REFERENCE', 'NOT_AVAILABLE', 'OBSERVED']",PASS,0
+Energy_Observed,Raw vs Derived Distinction,"data_status uses only controlled vocabulary ['ASSUMED', 'DERIVED', 'ESTIMATED_PROXY', 'EXTERNAL_REFERENCE', 'NOT_AVAILABLE', 'OBSERVED']",PASS,0
+Energy_Estimated_Proxy,Raw vs Derived Distinction,"data_status uses only controlled vocabulary ['ASSUMED', 'DERIVED', 'ESTIMATED_PROXY', 'EXTERNAL_REFERENCE', 'NOT_AVAILABLE', 'OBSERVED']",PASS,0
+Carbon_Emission,Raw vs Derived Distinction,"data_status uses only controlled vocabulary ['ASSUMED', 'DERIVED', 'ESTIMATED_PROXY', 'EXTERNAL_REFERENCE', 'NOT_AVAILABLE', 'OBSERVED']",PASS,0
+Energy_Estimated_Proxy,Energy Estimated Flag,energy_status=='ESTIMATED_PROXY' and is_metered==False for every row,PASS,0
+Carbon_Emission,Carbon Estimated Flag,carbon_status=='ESTIMATED_FROM_PROXY_ENERGY' for every row,PASS,0
+Carbon_Credit_Assessment,Screening Disclaimer Present,disclaimer column non-null on every row,PASS,0
+Tax_Incentive_Screening,Verification Status Present,verification_status=='REQUIRES_EXTERNAL_VERIFICATION' for every row,PASS,0
+Machine_Master,No Fabricated Power Rating,power_rating_kw is NULL for every machine (source has no nameplate data),PASS,0
+Machine_Master,No Fabricated Installation Year,installation_year is NULL for every machine (source has no asset-register data),PASS,0
+Tax_Incentive_Screening,No Fabricated Tax Rates,no tax rate/deduction/subsidy percentage columns present (found: []),PASS,0
+Tax_Incentive_Screening,No Fabricated Scheme Names,scheme_name is NULL for every row (no authoritative scheme source available),PASS,0
+Carbon_Credit_Assessment,No Fabricated Certification Claims,"eligibility_status in ['INSUFFICIENT_DATA', 'POTENTIAL', 'REQUIRES_METHODOLOGY', 'SCREENING_ONLY'] only, and no bare 'certified'/'Eligible = Yes' status value in the structured status columns",PASS,0
+Production,OEE Anomaly Preservation,known >100% OEE/Performance values remain in *_raw (unclipped) and *_clean is NULL for them,PASS,0
+Production,Sunday/No-Plan Classification,"production_status uses only controlled vocabulary ['DATA_MISSING', 'NO_PLAN', 'PLANNED_SHUTDOWN', 'PRODUCTION', 'UNKNOWN']",PASS,0
+Machine_Health,Confidence Score Range,"confidence_score within [0,1]",PASS,0
+Machine_Health,Confidence Level Consistency,confidence_level matches confidence_level_for_score(confidence_score),PASS,0
+Energy_Observed,Confidence Score Range,"confidence_score within [0,1]",PASS,0
+Energy_Observed,Confidence Level Consistency,confidence_level matches confidence_level_for_score(confidence_score),PASS,0
+Energy_Estimated_Proxy,Confidence Score Range,"confidence_score within [0,1]",PASS,0
+Energy_Estimated_Proxy,Confidence Level Consistency,confidence_level matches confidence_level_for_score(confidence_score),PASS,0
+Carbon_Emission,Confidence Score Range,"confidence_score within [0,1]",PASS,0
+Carbon_Emission,Confidence Level Consistency,confidence_level matches confidence_level_for_score(confidence_score),PASS,0
+Carbon_Credit_Assessment,Confidence Score Range,"confidence_score within [0,1]",PASS,0
+Carbon_Credit_Assessment,Confidence Level Consistency,confidence_level matches confidence_level_for_score(confidence_score),PASS,0
+Tax_Incentive_Screening,Confidence Score Range,"confidence_score within [0,1]",PASS,0
+Tax_Incentive_Screening,Confidence Level Consistency,confidence_level matches confidence_level_for_score(confidence_score),PASS,0
+Recommendations,Confidence Score Range,"confidence_score within [0,1]",PASS,0
+Recommendations,Confidence Level Consistency,confidence_level matches confidence_level_for_score(confidence_score),PASS,0
+Energy_Estimated_Proxy,Allocation Reconciliation,"sum(allocated_energy_kwh) per date == Energy_Observed plant Machine Power (5750.0); this is an ALLOCATION reconciliation, not a measurement validation",PASS,0

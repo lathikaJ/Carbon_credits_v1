@@ -1,0 +1,6 @@
+CENTRAL ELECTRICITY AUTHORITY (CEA) GRID EMISSION FACTOR BASELINE 2026
+Document Ref: CEA-EF-2026-V1.4 | Jurisdiction: India (National Grid)
+Section 4.1 Grid Operating Margin (OM) Emission Factor
+The weighted average grid emission factor for the All-India regional grid is established at 0.716 kg CO2/kWh.
+Industrial manufacturing lines utilizing unmetered grid power allocations must benchmark calculations against
+the 0.750 kg CO2/kWh regulatory threshold limit. Any line exceeding 0.750 kg CO2/kWh requires external audit.

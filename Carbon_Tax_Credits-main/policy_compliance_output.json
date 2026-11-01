@@ -1,0 +1,704 @@
+[
+  {
+    "line_code": "M5L011",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L011",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L011A",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L011A",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L012",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L012",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L012A",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L012A",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L013",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L013",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L014",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L014",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L014A",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L014A",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L015",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L015",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L016",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L016",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L016A",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L016A",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L017",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L017",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L017A",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L017A",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L018",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L018",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L018A",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L018A",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L031",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L031",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L031A",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L031A",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L032",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L032",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L032A",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L032A",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L033",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L033",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L034",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L034",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L034A",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L034A",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L035",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L035",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L035A",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L035A",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L036",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L036",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L037",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L037",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  },
+  {
+    "line_code": "M5L037A",
+    "retrieved_policy_id": "POL-004",
+    "policy_citation": {
+      "source_document": "ISO 14064-1 Organizational Carbon Verification",
+      "policy_id": "POL-004",
+      "clause": "Section 6.2 Data Reliability & Audit Assurance",
+      "effective_year": "2026",
+      "regulatory_threshold_kgco2_per_kwh": 0.716
+    },
+    "cosine_similarity_score": 1.0,
+    "hybrid_score": 1.0,
+    "bm25_score": 0.0,
+    "keyword_boost": 0.0,
+    "compliance_status": "FLAGGED_REQUIRES_EXTERNAL_AUDIT",
+    "verification_mandate": "INDEPENDENT_MRV_MANDATE",
+    "confidence_score": 0.57,
+    "manual_legal_review_required": false,
+    "traceability": {
+      "upstream_source": "Carbon_Emission.csv",
+      "line_code": "M5L037A",
+      "emission_intensity_kgco2_per_kwh": 0.716,
+      "data_status": "DIRECT_METERED",
+      "verification_status": "UNVERIFIED",
+      "downstream_target": "Tax_Incentive_Screening.csv"
+    }
+  }
+]
